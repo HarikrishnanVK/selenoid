@@ -1,0 +1,44 @@
+2023-08-02T16:32:02.858193530Z 19
+2023-08-02T16:32:02.866140918Z Waiting X server...
+2023-08-02T16:32:02.920074815Z Logging to: /dev/null
+2023-08-02T16:32:02.969408191Z Waiting X server...
+2023-08-02T16:32:03.084369555Z 2023/08/02 16:32:03 [-] [INIT] [Loading configuration files...]
+2023-08-02T16:32:03.084532896Z 2023/08/02 16:32:03 [-] [INIT] [Loaded configuration from /tmp/browsers.json]
+2023-08-02T16:32:03.084736245Z 2023/08/02 16:32:03 [-] [INIT] [Timezone: UTC]
+2023-08-02T16:32:03.084745202Z 2023/08/02 16:32:03 [-] [INIT] [Listening on :4444]
+2023-08-02T16:32:03.085626280Z 
+2023-08-02T16:32:03.085638977Z  --- x11vnc loop: 1 ---
+2023-08-02T16:32:03.085644309Z 
+2023-08-02T16:32:03.125593109Z 2023/08/02 16:32:03 [-] [NEW_REQUEST] [unknown] [172.20.0.2]
+2023-08-02T16:32:03.125622368Z 2023/08/02 16:32:03 [-] [NEW_REQUEST_ACCEPTED] [unknown] [172.20.0.2]
+2023-08-02T16:32:03.125812145Z 2023/08/02 16:32:03 [0] [LOCATING_SERVICE] [firefox] [115.0]
+2023-08-02T16:32:03.125819852Z 2023/08/02 16:32:03 [0] [USING_DRIVER] [firefox] [115.0]
+2023-08-02T16:32:03.125824460Z 2023/08/02 16:32:03 [0] [ALLOCATING_PORT]
+2023-08-02T16:32:03.126111228Z 2023/08/02 16:32:03 [0] [ALLOCATED_PORT] [36785]
+2023-08-02T16:32:03.126124199Z 2023/08/02 16:32:03 [0] [STARTING_PROCESS] [[/usr/bin/geckodriver --port=36785]]
+2023-08-02T16:32:03.127037578Z 1690993923126	geckodriver	INFO	Listening on 127.0.0.1:36785
+2023-08-02T16:32:03.177606815Z 2023/08/02 16:32:03 [0] [PROCESS_STARTED] [73] [0.05s]
+2023-08-02T16:32:03.177628729Z 2023/08/02 16:32:03 [0] [PROXY_TO] [http://127.0.0.1:36785]
+2023-08-02T16:32:03.177684450Z 2023/08/02 16:32:03 [0] [SESSION_ATTEMPTED] [http://127.0.0.1:36785] [1]
+2023-08-02T16:32:03.180360097Z 1690993923180	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileFKyLBQ"
+2023-08-02T16:32:03.316897198Z console.warn: services.settings: Ignoring preference override of remote settings server
+2023-08-02T16:32:03.316944563Z console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+2023-08-02T16:32:03.586531921Z  --- x11vnc loop: waiting for: 121
+2023-08-02T16:32:03.586553079Z 
+2023-08-02T16:32:03.619686545Z PORT=5900
+2023-08-02T16:32:03.627146678Z [GFX1-]: glxtest: libpci missing
+2023-08-02T16:32:03.627164000Z [GFX1-]: glxtest: libEGL missing
+2023-08-02T16:32:03.646140456Z 1690993923646	Marionette	INFO	Marionette enabled
+2023-08-02T16:32:03.716234628Z 1690993923716	Marionette	INFO	Listening on port 39317
+2023-08-02T16:32:03.781093421Z Read port: 39317
+2023-08-02T16:32:03.930069779Z 1690993923929	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2023-08-02T16:32:04.250415324Z console.error: ({})
+2023-08-02T16:32:05.277898767Z 2023/08/02 16:32:05 [0] [SESSION_CREATED] [76568d40-45cf-48b4-916a-34c69c934918] [1] [2.15s]
+2023-08-02T16:32:10.874789930Z JavaScript warning: https://www.google.com/js/th/8BnCbiliH-guui2Vq9aW8FXO5FubzhIHYOs_9ZPSwW0.js line 2 > eval line 3473 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+2023-08-02T16:32:11.354375785Z JavaScript warning: https://www.google.com/js/th/8BnCbiliH-guui2Vq9aW8FXO5FubzhIHYOs_9ZPSwW0.js line 2 > eval line 6795 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+2023-08-02T16:32:11.391254287Z JavaScript warning: https://www.google.com/js/th/8BnCbiliH-guui2Vq9aW8FXO5FubzhIHYOs_9ZPSwW0.js line 2 > eval line 4113 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+2023-08-02T16:32:12.388897233Z console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.bupa.com."
+2023-08-02T16:32:13.771731439Z JavaScript error: https://www.bupa.com/javascripts/jquery-ba-bbq.js?revision=84bace89-a6e1-4e65-be17-75c954dc7a13, line 1: TypeError: f is undefined
+2023-08-02T16:32:27.680093306Z 2023/08/02 16:32:27 [174] [SESSION_DELETED] [76568d40-45cf-48b4-916a-34c69c934918]
+2023-08-02T16:32:27.681231914Z 1690993947681	Marionette	INFO	Stopped listening on port 39317
+2023-08-02T16:32:28.298087056Z 2023/08/02 16:32:28 [0] [TERMINATING_PROCESS] [73]

@@ -1,0 +1,44 @@
+2023-08-02T16:34:54.156328982Z 19
+2023-08-02T16:34:54.163109723Z Waiting X server...
+2023-08-02T16:34:54.222943706Z Logging to: /dev/null
+2023-08-02T16:34:54.266564790Z Waiting X server...
+2023-08-02T16:34:54.378762085Z 2023/08/02 16:34:54 [-] [INIT] [Loading configuration files...]
+2023-08-02T16:34:54.378948755Z 2023/08/02 16:34:54 [-] [INIT] [Loaded configuration from /tmp/browsers.json]
+2023-08-02T16:34:54.379211312Z 2023/08/02 16:34:54 [-] [INIT] [Timezone: UTC]
+2023-08-02T16:34:54.379242743Z 2023/08/02 16:34:54 [-] [INIT] [Listening on :4444]
+2023-08-02T16:34:54.380338378Z 
+2023-08-02T16:34:54.380352638Z  --- x11vnc loop: 1 ---
+2023-08-02T16:34:54.380357079Z 
+2023-08-02T16:34:54.390387019Z 2023/08/02 16:34:54 [-] [NEW_REQUEST] [unknown] [172.20.0.2]
+2023-08-02T16:34:54.390398614Z 2023/08/02 16:34:54 [-] [NEW_REQUEST_ACCEPTED] [unknown] [172.20.0.2]
+2023-08-02T16:34:54.390681793Z 2023/08/02 16:34:54 [0] [LOCATING_SERVICE] [firefox] [115.0]
+2023-08-02T16:34:54.390689402Z 2023/08/02 16:34:54 [0] [USING_DRIVER] [firefox] [115.0]
+2023-08-02T16:34:54.390693254Z 2023/08/02 16:34:54 [0] [ALLOCATING_PORT]
+2023-08-02T16:34:54.391047206Z 2023/08/02 16:34:54 [0] [ALLOCATED_PORT] [36969]
+2023-08-02T16:34:54.391101270Z 2023/08/02 16:34:54 [0] [STARTING_PROCESS] [[/usr/bin/geckodriver --port=36969]]
+2023-08-02T16:34:54.392175430Z 1690994094392	geckodriver	INFO	Listening on 127.0.0.1:36969
+2023-08-02T16:34:54.442161404Z 2023/08/02 16:34:54 [0] [PROCESS_STARTED] [71] [0.05s]
+2023-08-02T16:34:54.442183526Z 2023/08/02 16:34:54 [0] [PROXY_TO] [http://127.0.0.1:36969]
+2023-08-02T16:34:54.442210378Z 2023/08/02 16:34:54 [0] [SESSION_ATTEMPTED] [http://127.0.0.1:36969] [1]
+2023-08-02T16:34:54.444952099Z 1690994094444	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileXZGfwZ"
+2023-08-02T16:34:54.592173396Z console.warn: services.settings: Ignoring preference override of remote settings server
+2023-08-02T16:34:54.592240617Z console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+2023-08-02T16:34:54.880992098Z  --- x11vnc loop: waiting for: 121
+2023-08-02T16:34:54.881016064Z 
+2023-08-02T16:34:54.915198623Z PORT=5900
+2023-08-02T16:34:54.940680133Z [GFX1-]: glxtest: libpci missing
+2023-08-02T16:34:54.940700415Z [GFX1-]: glxtest: libEGL missing
+2023-08-02T16:34:54.959352460Z 1690994094959	Marionette	INFO	Marionette enabled
+2023-08-02T16:34:55.051525164Z 1690994095051	Marionette	INFO	Listening on port 34885
+2023-08-02T16:34:55.146335090Z Read port: 34885
+2023-08-02T16:34:55.301142177Z 1690994095301	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2023-08-02T16:34:55.644029550Z console.error: ({})
+2023-08-02T16:34:56.559890169Z 2023/08/02 16:34:56 [0] [SESSION_CREATED] [c2973a2f-0ac0-4204-b188-1c131e051aa1] [1] [2.17s]
+2023-08-02T16:35:05.021865471Z console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.bupa.com."
+2023-08-02T16:35:06.111198368Z JavaScript warning: https://www.google.com/js/th/8BnCbiliH-guui2Vq9aW8FXO5FubzhIHYOs_9ZPSwW0.js line 2 > eval line 850 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+2023-08-02T16:35:06.124534332Z JavaScript error: https://www.bupa.com/javascripts/jquery-ba-bbq.js?revision=84bace89-a6e1-4e65-be17-75c954dc7a13, line 1: TypeError: f is undefined
+2023-08-02T16:35:06.145891670Z JavaScript warning: https://www.google.com/js/th/8BnCbiliH-guui2Vq9aW8FXO5FubzhIHYOs_9ZPSwW0.js line 2 > eval line 1039 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+2023-08-02T16:35:06.192291392Z JavaScript warning: https://www.google.com/js/th/8BnCbiliH-guui2Vq9aW8FXO5FubzhIHYOs_9ZPSwW0.js line 2 > eval line 7477 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+2023-08-02T16:35:20.585232041Z 2023/08/02 16:35:20 [153] [SESSION_DELETED] [c2973a2f-0ac0-4204-b188-1c131e051aa1]
+2023-08-02T16:35:20.585911642Z 1690994120585	Marionette	INFO	Stopped listening on port 34885
+2023-08-02T16:35:21.369442499Z 2023/08/02 16:35:21 [0] [TERMINATING_PROCESS] [71]

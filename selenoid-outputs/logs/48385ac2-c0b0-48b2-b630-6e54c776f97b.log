@@ -1,0 +1,60 @@
+2023-08-02T16:49:34.334580266Z 19
+2023-08-02T16:49:34.352173906Z Waiting X server...
+2023-08-02T16:49:34.461412830Z Logging to: /dev/null
+2023-08-02T16:49:34.537193758Z Waiting X server...
+2023-08-02T16:49:34.656568671Z Waiting X server...
+2023-08-02T16:49:34.785928033Z 
+2023-08-02T16:49:34.785961891Z  --- x11vnc loop: 1 ---
+2023-08-02T16:49:34.785967777Z 
+2023-08-02T16:49:34.787780253Z 2023/08/02 16:49:34 [-] [INIT] [Loading configuration files...]
+2023-08-02T16:49:34.792720166Z 2023/08/02 16:49:34 [-] [INIT] [Loaded configuration from /tmp/browsers.json]
+2023-08-02T16:49:34.792925967Z 2023/08/02 16:49:34 [-] [INIT] [Timezone: UTC]
+2023-08-02T16:49:34.792945111Z 2023/08/02 16:49:34 [-] [INIT] [Listening on :4444]
+2023-08-02T16:49:34.799058764Z 2023/08/02 16:49:34 [-] [NEW_REQUEST] [unknown] [172.20.0.2]
+2023-08-02T16:49:34.799071552Z 2023/08/02 16:49:34 [-] [NEW_REQUEST_ACCEPTED] [unknown] [172.20.0.2]
+2023-08-02T16:49:34.799076204Z 2023/08/02 16:49:34 [0] [LOCATING_SERVICE] [firefox] [115.0]
+2023-08-02T16:49:34.799080339Z 2023/08/02 16:49:34 [0] [USING_DRIVER] [firefox] [115.0]
+2023-08-02T16:49:34.799084580Z 2023/08/02 16:49:34 [0] [ALLOCATING_PORT]
+2023-08-02T16:49:34.799089300Z 2023/08/02 16:49:34 [0] [ALLOCATED_PORT] [32795]
+2023-08-02T16:49:34.799094061Z 2023/08/02 16:49:34 [0] [STARTING_PROCESS] [[/usr/bin/geckodriver --port=32795]]
+2023-08-02T16:49:34.805945652Z 1690994974805	geckodriver	INFO	Listening on 127.0.0.1:32795
+2023-08-02T16:49:34.807050524Z 2023/08/02 16:49:34 [0] [PROCESS_STARTED] [72] [0.01s]
+2023-08-02T16:49:34.807066394Z 2023/08/02 16:49:34 [0] [PROXY_TO] [http://127.0.0.1:32795]
+2023-08-02T16:49:34.807072127Z 2023/08/02 16:49:34 [0] [SESSION_ATTEMPTED] [http://127.0.0.1:32795] [1]
+2023-08-02T16:49:34.811939506Z 1690994974811	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile1yoCmf"
+2023-08-02T16:49:35.171240502Z console.warn: services.settings: Ignoring preference override of remote settings server
+2023-08-02T16:49:35.171476555Z console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+2023-08-02T16:49:35.289352497Z  --- x11vnc loop: waiting for: 111
+2023-08-02T16:49:35.289375573Z 
+2023-08-02T16:49:35.398654260Z PORT=5900
+2023-08-02T16:49:35.962140108Z [GFX1-]: glxtest: libpci missing
+2023-08-02T16:49:35.962196184Z [GFX1-]: glxtest: libEGL missing
+2023-08-02T16:49:36.005526095Z 1690994976005	Marionette	INFO	Marionette enabled
+2023-08-02T16:49:36.130137845Z 1690994976129	Marionette	INFO	Listening on port 34035
+2023-08-02T16:49:36.152402129Z Read port: 34035
+2023-08-02T16:49:36.405987346Z 1690994976405	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2023-08-02T16:49:36.895851448Z console.error: ({})
+2023-08-02T16:49:40.951472702Z 2023/08/02 16:49:40 [0] [SESSION_CREATED] [48385ac2-c0b0-48b2-b630-6e54c776f97b] [1] [6.15s]
+2023-08-02T16:49:50.602766133Z JavaScript warning: https://www.google.com/js/th/8BnCbiliH-guui2Vq9aW8FXO5FubzhIHYOs_9ZPSwW0.js line 2 > eval line 5270 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+2023-08-02T16:49:50.812489581Z JavaScript warning: https://www.google.com/js/th/8BnCbiliH-guui2Vq9aW8FXO5FubzhIHYOs_9ZPSwW0.js line 2 > eval line 5318 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+2023-08-02T16:49:50.921562918Z JavaScript warning: https://www.google.com/js/th/8BnCbiliH-guui2Vq9aW8FXO5FubzhIHYOs_9ZPSwW0.js line 2 > eval line 3464 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+2023-08-02T16:49:54.249355820Z console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.bupa.com."
+2023-08-02T16:49:55.558973373Z JavaScript warning: https://www.google.com/js/th/8BnCbiliH-guui2Vq9aW8FXO5FubzhIHYOs_9ZPSwW0.js line 2 > eval line 6066 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+2023-08-02T16:49:55.698519251Z JavaScript error: https://www.bupa.com/javascripts/jquery-ba-bbq.js?revision=84bace89-a6e1-4e65-be17-75c954dc7a13, line 1: TypeError: f is undefined
+2023-08-02T16:50:06.012368860Z console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+2023-08-02T16:50:09.632830746Z 2023/08/02 16:50:09 [156] [SESSION_DELETED] [48385ac2-c0b0-48b2-b630-6e54c776f97b]
+2023-08-02T16:50:09.642008070Z 1690995009641	Marionette	INFO	Stopped listening on port 34035
+2023-08-02T16:50:11.205269034Z console.log: "RemoteSettingsWorker error: AbortError: IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort."
+2023-08-02T16:50:11.206573960Z console.error: (new RemoteSettingsWorkerError("AbortError: IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 39))
+2023-08-02T16:50:11.214197719Z console.error: services.settings: 
+2023-08-02T16:50:11.214216378Z   Message: NetworkError: Network error: TypeError: NetworkError: Network request failed
+2023-08-02T16:50:11.214222312Z   Stack:
+2023-08-02T16:50:11.214227295Z     APIError@resource://services-settings/RemoteSettingsClient.sys.mjs:111:1
+2023-08-02T16:50:11.214243770Z NetworkError@resource://services-settings/RemoteSettingsClient.sys.mjs:115:5
+2023-08-02T16:50:11.214249416Z _adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:911:14
+2023-08-02T16:50:11.214254182Z maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:816:38
+2023-08-02T16:50:11.214268215Z 
+2023-08-02T16:50:11.214273030Z console.warn: services.settings: security-state/onecrl sync interrupted by shutdown
+2023-08-02T16:50:11.222546410Z console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 111))
+2023-08-02T16:50:11.630482125Z 2023/08/02 16:50:11 [0] [TERMINATING_PROCESS] [72]
+2023-08-02T16:50:11.630512888Z 2023/08/02 16:50:11 [0] [TERMINATED_PROCESS] [72] [0.00s]

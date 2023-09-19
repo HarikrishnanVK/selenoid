@@ -1,0 +1,30 @@
+2023-08-02T16:40:06.013256959Z Waiting X server...
+2023-08-02T16:40:06.082275660Z Logging to: /tmp/fluxbox.log
+2023-08-02T16:40:06.118296259Z Waiting X server...
+2023-08-02T16:40:06.223247172Z Waiting X server...
+2023-08-02T16:40:06.333430232Z * daemon not running; starting now at tcp:5037
+2023-08-02T16:40:06.336671570Z 
+2023-08-02T16:40:06.336688980Z  --- x11vnc loop: 1 ---
+2023-08-02T16:40:06.336693322Z 
+2023-08-02T16:40:06.364704718Z * daemon started successfully
+2023-08-02T16:40:06.365059416Z adb: no devices/emulators found
+2023-08-02T16:40:06.837998615Z  --- x11vnc loop: waiting for: 96
+2023-08-02T16:40:06.838060537Z 
+2023-08-02T16:40:06.901498908Z PORT=5900
+2023-08-02T16:40:07.372471295Z adb: no devices/emulators found
+2023-08-02T16:40:08.389760843Z adb: no devices/emulators found
+2023-08-02T16:40:09.411364051Z adb: no devices/emulators found
+2023-08-02T16:40:10.433341482Z adb: no devices/emulators found
+2023-08-02T16:40:11.243940603Z WARNING. Using fallback path for the emulator registration directory.
+2023-08-02T16:40:11.443873725Z adb: device offline
+2023-08-02T16:40:11.696442282Z qemu-system-x86_64: warning: TSC frequency mismatch between VM (1995379 kHz) and host (2903998 kHz), and TSC scaling unavailable
+2023-08-02T16:40:11.696531685Z qemu-system-x86_64: warning: TSC frequency mismatch between VM (1995379 kHz) and host (2903998 kHz), and TSC scaling unavailable
+2023-08-02T16:40:11.729928496Z emulator: WARNING: System image is writable
+2023-08-02T16:40:11.729949130Z Your emulator is out of date, please update by launching Android Studio:
+2023-08-02T16:40:11.729955212Z  - Start Android Studio
+2023-08-02T16:40:11.729959723Z  - Select menu "Tools > Android > SDK Manager"
+2023-08-02T16:40:11.729964666Z  - Click "SDK Tools" tab
+2023-08-02T16:40:11.729969797Z  - Check "Android Emulator" checkbox
+2023-08-02T16:40:11.729974422Z  - Click "OK"
+2023-08-02T16:40:11.729979138Z 
+2023-08-02T16:40:12.543246305Z 2023/08/02 16:40:12 [INIT] [Listening on :7070]

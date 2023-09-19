@@ -1,0 +1,31 @@
+2023-08-02T16:37:38.289860244Z Waiting X server...
+2023-08-02T16:37:38.379682985Z Logging to: /tmp/fluxbox.log
+2023-08-02T16:37:38.424929983Z Waiting X server...
+2023-08-02T16:37:38.532322683Z Waiting X server...
+2023-08-02T16:37:38.652026015Z 
+2023-08-02T16:37:38.652065304Z  --- x11vnc loop: 1 ---
+2023-08-02T16:37:38.652071678Z 
+2023-08-02T16:37:38.654554370Z * daemon not running; starting now at tcp:5037
+2023-08-02T16:37:38.688775318Z * daemon started successfully
+2023-08-02T16:37:38.689038113Z adb: no devices/emulators found
+2023-08-02T16:37:39.153068666Z  --- x11vnc loop: waiting for: 96
+2023-08-02T16:37:39.153104625Z 
+2023-08-02T16:37:39.222869654Z PORT=5900
+2023-08-02T16:37:39.694442980Z adb: no devices/emulators found
+2023-08-02T16:37:40.704842638Z adb: no devices/emulators found
+2023-08-02T16:37:41.717174480Z adb: no devices/emulators found
+2023-08-02T16:37:42.731417564Z adb: no devices/emulators found
+2023-08-02T16:37:43.166137662Z WARNING. Using fallback path for the emulator registration directory.
+2023-08-02T16:37:43.589490529Z qemu-system-x86_64: warning: TSC frequency mismatch between VM (1995379 kHz) and host (2903998 kHz), and TSC scaling unavailable
+2023-08-02T16:37:43.591028927Z qemu-system-x86_64: warning: TSC frequency mismatch between VM (1995379 kHz) and host (2903998 kHz), and TSC scaling unavailable
+2023-08-02T16:37:43.738923590Z emulator: WARNING: System image is writable
+2023-08-02T16:37:43.738944075Z Your emulator is out of date, please update by launching Android Studio:
+2023-08-02T16:37:43.738949226Z  - Start Android Studio
+2023-08-02T16:37:43.738953696Z  - Select menu "Tools > Android > SDK Manager"
+2023-08-02T16:37:43.738958149Z  - Click "SDK Tools" tab
+2023-08-02T16:37:43.738962617Z  - Check "Android Emulator" checkbox
+2023-08-02T16:37:43.738966945Z  - Click "OK"
+2023-08-02T16:37:43.738971414Z 
+2023-08-02T16:37:43.743649600Z adb: device offline
+2023-08-02T16:37:44.758240187Z adb: no devices/emulators found
+2023-08-02T16:37:45.854338327Z 2023/08/02 16:37:45 [INIT] [Listening on :7070]

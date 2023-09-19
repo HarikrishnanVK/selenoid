@@ -1,0 +1,60 @@
+2023-08-02T16:41:02.000268556Z 19
+2023-08-02T16:41:02.011258595Z Waiting X server...
+2023-08-02T16:41:02.151687448Z Waiting X server...
+2023-08-02T16:41:02.157155402Z Logging to: /dev/null
+2023-08-02T16:41:02.261454975Z Waiting X server...
+2023-08-02T16:41:02.398832447Z Waiting X server...
+2023-08-02T16:41:02.536484042Z 
+2023-08-02T16:41:02.536517112Z  --- x11vnc loop: 1 ---
+2023-08-02T16:41:02.536527342Z 
+2023-08-02T16:41:02.565062654Z 2023/08/02 16:41:02 [-] [INIT] [Loading configuration files...]
+2023-08-02T16:41:02.565203958Z 2023/08/02 16:41:02 [-] [INIT] [Loaded configuration from /tmp/browsers.json]
+2023-08-02T16:41:02.565466585Z 2023/08/02 16:41:02 [-] [INIT] [Timezone: UTC]
+2023-08-02T16:41:02.565476991Z 2023/08/02 16:41:02 [-] [INIT] [Listening on :4444]
+2023-08-02T16:41:02.590215837Z 2023/08/02 16:41:02 [-] [NEW_REQUEST] [unknown] [172.20.0.2]
+2023-08-02T16:41:02.590232374Z 2023/08/02 16:41:02 [-] [NEW_REQUEST_ACCEPTED] [unknown] [172.20.0.2]
+2023-08-02T16:41:02.590237386Z 2023/08/02 16:41:02 [0] [LOCATING_SERVICE] [firefox] [115.0]
+2023-08-02T16:41:02.590241675Z 2023/08/02 16:41:02 [0] [USING_DRIVER] [firefox] [115.0]
+2023-08-02T16:41:02.590245844Z 2023/08/02 16:41:02 [0] [ALLOCATING_PORT]
+2023-08-02T16:41:02.590250020Z 2023/08/02 16:41:02 [0] [ALLOCATED_PORT] [39413]
+2023-08-02T16:41:02.590254362Z 2023/08/02 16:41:02 [0] [STARTING_PROCESS] [[/usr/bin/geckodriver --port=39413]]
+2023-08-02T16:41:02.597696405Z 1690994462597	geckodriver	INFO	Listening on 127.0.0.1:39413
+2023-08-02T16:41:02.647573310Z 2023/08/02 16:41:02 [0] [PROCESS_STARTED] [74] [0.06s]
+2023-08-02T16:41:02.647600141Z 2023/08/02 16:41:02 [0] [PROXY_TO] [http://127.0.0.1:39413]
+2023-08-02T16:41:02.647696718Z 2023/08/02 16:41:02 [0] [SESSION_ATTEMPTED] [http://127.0.0.1:39413] [1]
+2023-08-02T16:41:02.650532062Z 1690994462650	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileffnTf1"
+2023-08-02T16:41:03.053026304Z  --- x11vnc loop: waiting for: 93
+2023-08-02T16:41:03.053057784Z 
+2023-08-02T16:41:03.217608755Z PORT=5900
+2023-08-02T16:41:03.317514766Z console.warn: services.settings: Ignoring preference override of remote settings server
+2023-08-02T16:41:03.317670616Z console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+2023-08-02T16:41:04.184772708Z [GFX1-]: glxtest: libpci missing
+2023-08-02T16:41:04.184796367Z [GFX1-]: glxtest: libEGL missing
+2023-08-02T16:41:04.216916794Z 1690994464216	Marionette	INFO	Marionette enabled
+2023-08-02T16:41:04.346237502Z 1690994464346	Marionette	INFO	Listening on port 36921
+2023-08-02T16:41:04.686974702Z Read port: 36921
+2023-08-02T16:41:05.561264968Z 1690994465561	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2023-08-02T16:41:06.221214400Z console.error: ({})
+2023-08-02T16:41:09.085155070Z 2023/08/02 16:41:09 [0] [SESSION_CREATED] [e3c39ceb-09a6-4e69-a8f9-2dcd3c7179b4] [1] [6.50s]
+2023-08-02T16:41:20.523185802Z JavaScript warning: https://www.google.com/js/th/8BnCbiliH-guui2Vq9aW8FXO5FubzhIHYOs_9ZPSwW0.js line 2 > eval line 5617 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+2023-08-02T16:41:20.876227175Z JavaScript warning: https://www.google.com/js/th/8BnCbiliH-guui2Vq9aW8FXO5FubzhIHYOs_9ZPSwW0.js line 2 > eval line 803 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+2023-08-02T16:41:20.997932856Z console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.bupa.com."
+2023-08-02T16:41:21.543754660Z JavaScript warning: https://www.google.com/js/th/8BnCbiliH-guui2Vq9aW8FXO5FubzhIHYOs_9ZPSwW0.js line 2 > eval line 1166 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+2023-08-02T16:41:21.587592002Z JavaScript error: resource://gre/actors/PictureInPictureChild.sys.mjs, line 347: TypeError: can't access dead object
+2023-08-02T16:41:22.633849470Z JavaScript error: https://www.bupa.com/javascripts/jquery-ba-bbq.js?revision=84bace89-a6e1-4e65-be17-75c954dc7a13, line 1: TypeError: f is undefined
+2023-08-02T16:41:34.225229167Z console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+2023-08-02T16:41:36.088785547Z 2023/08/02 16:41:36 [152] [SESSION_DELETED] [e3c39ceb-09a6-4e69-a8f9-2dcd3c7179b4]
+2023-08-02T16:41:36.121361552Z 1690994496121	Marionette	INFO	Stopped listening on port 36921
+2023-08-02T16:41:37.363003805Z console.error: services.settings: 
+2023-08-02T16:41:37.372551855Z   main/fxmonitor-breaches Signature failed  Error: Shutdown, aborting read-only worker requests.
+2023-08-02T16:41:37.374309705Z console.error: services.settings: 
+2023-08-02T16:41:37.374468957Z   Message: Error: Shutdown, aborting read-only worker requests.
+2023-08-02T16:41:37.374477325Z   Stack:
+2023-08-02T16:41:37.374482309Z     _abortCancelableRequests@resource://services-settings/RemoteSettingsWorker.sys.mjs:136:19
+2023-08-02T16:41:37.374487273Z @resource://services-settings/RemoteSettingsWorker.sys.mjs:212:28
+2023-08-02T16:41:37.374491948Z trigger@resource://gre/modules/AsyncShutdown.sys.mjs:760:23
+2023-08-02T16:41:37.374496592Z _wait@resource://gre/modules/AsyncShutdown.sys.mjs:921:15
+2023-08-02T16:41:37.374501195Z wait@resource://gre/modules/AsyncShutdown.sys.mjs:902:34
+2023-08-02T16:41:37.374505915Z observe@resource://gre/modules/AsyncShutdown.sys.mjs:559:10
+2023-08-02T16:41:37.374510580Z 
+2023-08-02T16:41:37.376025278Z console.error: (new Error("IndexedDB: main/ms-images getLastModified() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.jsm", 18))

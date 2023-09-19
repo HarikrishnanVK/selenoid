@@ -1,0 +1,61 @@
+2023-08-02T16:44:13.793137074Z 19
+2023-08-02T16:44:13.809871508Z Waiting X server...
+2023-08-02T16:44:13.914620108Z Logging to: /dev/null
+2023-08-02T16:44:13.922954081Z Waiting X server...
+2023-08-02T16:44:14.033818422Z Waiting X server...
+2023-08-02T16:44:14.145465420Z Waiting X server...
+2023-08-02T16:44:14.287347974Z 
+2023-08-02T16:44:14.287373815Z  --- x11vnc loop: 1 ---
+2023-08-02T16:44:14.287380553Z 
+2023-08-02T16:44:14.289854891Z 2023/08/02 16:44:14 [-] [INIT] [Loading configuration files...]
+2023-08-02T16:44:14.290028802Z 2023/08/02 16:44:14 [-] [INIT] [Loaded configuration from /tmp/browsers.json]
+2023-08-02T16:44:14.290314933Z 2023/08/02 16:44:14 [-] [INIT] [Timezone: UTC]
+2023-08-02T16:44:14.290324707Z 2023/08/02 16:44:14 [-] [INIT] [Listening on :4444]
+2023-08-02T16:44:14.335559102Z 2023/08/02 16:44:14 [-] [NEW_REQUEST] [unknown] [172.20.0.2]
+2023-08-02T16:44:14.335578252Z 2023/08/02 16:44:14 [-] [NEW_REQUEST_ACCEPTED] [unknown] [172.20.0.2]
+2023-08-02T16:44:14.335584952Z 2023/08/02 16:44:14 [0] [LOCATING_SERVICE] [firefox] [115.0]
+2023-08-02T16:44:14.335590005Z 2023/08/02 16:44:14 [0] [USING_DRIVER] [firefox] [115.0]
+2023-08-02T16:44:14.335594987Z 2023/08/02 16:44:14 [0] [ALLOCATING_PORT]
+2023-08-02T16:44:14.335599340Z 2023/08/02 16:44:14 [0] [ALLOCATED_PORT] [35399]
+2023-08-02T16:44:14.335603709Z 2023/08/02 16:44:14 [0] [STARTING_PROCESS] [[/usr/bin/geckodriver --port=35399]]
+2023-08-02T16:44:14.342086498Z 1690994654341	geckodriver	INFO	Listening on 127.0.0.1:35399
+2023-08-02T16:44:14.396476890Z 2023/08/02 16:44:14 [0] [PROCESS_STARTED] [78] [0.06s]
+2023-08-02T16:44:14.396495885Z 2023/08/02 16:44:14 [0] [PROXY_TO] [http://127.0.0.1:35399]
+2023-08-02T16:44:14.396502792Z 2023/08/02 16:44:14 [0] [SESSION_ATTEMPTED] [http://127.0.0.1:35399] [1]
+2023-08-02T16:44:14.396710350Z 1690994654396	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilejqD50f"
+2023-08-02T16:44:14.699991209Z console.warn: services.settings: Ignoring preference override of remote settings server
+2023-08-02T16:44:14.700095536Z console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+2023-08-02T16:44:14.801804867Z  --- x11vnc loop: waiting for: 115
+2023-08-02T16:44:14.801830274Z 
+2023-08-02T16:44:14.892746129Z PORT=5900
+2023-08-02T16:44:15.531918074Z [GFX1-]: glxtest: libpci missing
+2023-08-02T16:44:15.531954469Z [GFX1-]: glxtest: libEGL missing
+2023-08-02T16:44:15.567410218Z 1690994655567	Marionette	INFO	Marionette enabled
+2023-08-02T16:44:15.702024996Z 1690994655701	Marionette	INFO	Listening on port 43781
+2023-08-02T16:44:15.707939517Z Read port: 43781
+2023-08-02T16:44:15.829911246Z 1690994655829	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2023-08-02T16:44:16.869001578Z console.error: ({})
+2023-08-02T16:44:19.951237750Z 2023/08/02 16:44:19 [0] [SESSION_CREATED] [df79fd72-cbaf-4071-9db5-0075693456f4] [1] [5.62s]
+2023-08-02T16:44:32.028468296Z JavaScript warning: https://www.google.com/js/th/8BnCbiliH-guui2Vq9aW8FXO5FubzhIHYOs_9ZPSwW0.js line 2 > eval line 1026 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+2023-08-02T16:44:32.288010990Z JavaScript warning: https://www.google.com/js/th/8BnCbiliH-guui2Vq9aW8FXO5FubzhIHYOs_9ZPSwW0.js line 2 > eval line 7390 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+2023-08-02T16:44:33.304431608Z console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.bupa.com."
+2023-08-02T16:44:34.235950879Z JavaScript error: resource://gre/actors/PictureInPictureChild.sys.mjs, line 347: TypeError: can't access dead object
+2023-08-02T16:44:35.198516102Z JavaScript error: https://www.bupa.com/javascripts/jquery-ba-bbq.js?revision=84bace89-a6e1-4e65-be17-75c954dc7a13, line 1: TypeError: f is undefined
+2023-08-02T16:44:36.588725101Z JavaScript error: https://staticcontents.investisdigital.com/html/c/cidip/inv_resolution_lf_1.0.js, line 7: TypeError: ga.getAll is not a function
+2023-08-02T16:44:36.644463921Z JavaScript error: https://staticcontents.investisdigital.com/html/c/cidip/inv_resolution_lf_1.0.js, line 7: TypeError: ga.getAll is not a function
+2023-08-02T16:44:45.582172097Z console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+2023-08-02T16:44:49.564743230Z 2023/08/02 16:44:49 [157] [SESSION_DELETED] [df79fd72-cbaf-4071-9db5-0075693456f4]
+2023-08-02T16:44:49.566319520Z 1690994689566	Marionette	INFO	Stopped listening on port 43781
+2023-08-02T16:44:50.900759937Z console.error: services.settings: 
+2023-08-02T16:44:50.901061494Z   Message: NetworkError: Network error: TypeError: NetworkError: Network request failed
+2023-08-02T16:44:50.901076035Z   Stack:
+2023-08-02T16:44:50.901082915Z     APIError@resource://services-settings/RemoteSettingsClient.sys.mjs:111:1
+2023-08-02T16:44:50.901089085Z NetworkError@resource://services-settings/RemoteSettingsClient.sys.mjs:115:5
+2023-08-02T16:44:50.901095625Z _adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:911:14
+2023-08-02T16:44:50.901102566Z maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:816:38
+2023-08-02T16:44:50.901109118Z 
+2023-08-02T16:44:50.903160353Z console.warn: services.settings: security-state/cert-revocations sync interrupted by shutdown
+2023-08-02T16:44:50.903615747Z console.warn: services.settings: security-state/intermediates sync interrupted by shutdown
+2023-08-02T16:44:50.904034239Z console.warn: services.settings: security-state/onecrl sync interrupted by shutdown
+2023-08-02T16:44:50.927788646Z console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 111))
+2023-08-02T16:44:51.834870552Z 2023/08/02 16:44:51 [0] [TERMINATING_PROCESS] [78]
